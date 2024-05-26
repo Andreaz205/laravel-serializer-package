@@ -1,0 +1,23 @@
+{
+    "name": "andreaz205/serializer-package",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Andreaz205\\SerializerPackage\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Andreaz205"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": "^8.0",
+        "phpdocumentor/reflection-docblock": "^5.4",
+        "symfony/property-access": "^6.4",
+        "symfony/property-info": "^6.4",
+        "symfony/serializer": "^6.4"
+    }
+}
